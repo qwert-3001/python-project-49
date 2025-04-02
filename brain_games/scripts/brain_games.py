@@ -1,4 +1,5 @@
 from brain_games.cli import welcome_user
+from brain_games.scripts.brain_even import brain_even
 
 
 def greet():
@@ -7,7 +8,8 @@ def greet():
 
 def main():
     greet()
-    welcome_user()
+    user_name = welcome_user()
+    brain_even(user_name)
 
 
 if __name__ == "__main__":
