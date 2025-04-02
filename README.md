@@ -5,4 +5,4 @@
 
 <a href="https://codeclimate.com/github/qwert-3001/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/a5b1e3290d96667bb050/maintainability" /></a>
 
-[![asciicast](https://asciinema.org/a/ucloaDy3uARFkR4UlGJiEjwTf.svg)](https://asciinema.org/a/ucloaDy3uARFkR4UlGJiEjwTf)
+<script src="https://asciinema.org/a/ucloaDy3uARFkR4UlGJiEjwTf.js" id="asciicast-ucloaDy3uARFkR4UlGJiEjwTf" async="true"></script>
