@@ -15,7 +15,7 @@ def generate_progression_question():
     
     progression_line[random_pos], number_from_pos = '..', progression_line[random_pos]
 
-    question = progression_line
+    question = ' '.join(progression_line)
     answer = number_from_pos
 
     return question, answer 
