@@ -26,7 +26,7 @@ def run_game(game_rules, generate_question_answer, round=3):
             print(f'''{user_answer} is wrong answer ;(.
                   Correct answer was {correct_answer}.
                   Let's try again, {user_name}!''')
-            correct_answers = 0
+            return
         
     print(f'Congratulations, {user_name}!')
     return True
