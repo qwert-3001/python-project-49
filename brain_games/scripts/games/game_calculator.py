@@ -20,6 +20,6 @@ def generate_calc_question():
     return question, answer
 
 
-def game_calculator(user_name):
+def game_calculator():
     rules = 'What is the result of the expression?'
-    run_game(user_name, rules, generate_calc_question)
+    run_game(rules, generate_calc_question)
