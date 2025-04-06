@@ -18,5 +18,5 @@ def generate_prime_question():
 
 
 def game_prime():
-    rules = '"yes" if given number is prime. Otherwise answer "no"'
+    rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     run_game(rules, generate_prime_question)
