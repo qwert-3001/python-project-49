@@ -13,7 +13,8 @@ def generate_progression_question():
     for i in range(0, 10):
         progression_line.append(str(i * iter_number))
     
-    progression_line[random_pos], number_from_pos = '..', progression_line[random_pos]
+    progression_line[random_pos], number_from_pos = \
+    '..', progression_line[random_pos]
 
     question = ' '.join(progression_line)
     answer = number_from_pos
