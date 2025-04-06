@@ -13,5 +13,5 @@ def generate_even_question():
 
 
 def game_even():
-    rules = 'yes" if the number is even, otherwise answer "no".'
+    rules = 'Answer "yes" if the number is even, otherwise answer "no".'
     run_game(rules, generate_even_question)
