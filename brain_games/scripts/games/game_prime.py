@@ -17,6 +17,6 @@ def generate_prime_question():
     return question, answer 
 
 
-def game_prime(user_name):
+def game_prime():
     rules = '"yes" if given number is prime. Otherwise answer "no"'
-    run_game(user_name, rules, generate_prime_question)
+    run_game(rules, generate_prime_question)

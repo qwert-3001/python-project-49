@@ -12,6 +12,6 @@ def generate_even_question():
     return question, answer
 
 
-def game_even(user_name):
+def game_even():
     rules = 'Answer "yes" if the number is even, otherwise answer "no"'
-    run_game(user_name, rules, generate_even_question)
+    run_game(rules, generate_even_question)

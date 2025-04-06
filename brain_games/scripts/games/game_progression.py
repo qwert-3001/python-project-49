@@ -21,6 +21,6 @@ def generate_progression_question():
     return question, answer 
 
 
-def game_progression(user_name):
+def game_progression():
     rules = 'What number is missing in the progression?'
-    run_game(user_name, rules, generate_progression_question)
+    run_game(rules, generate_progression_question)

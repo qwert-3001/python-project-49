@@ -19,7 +19,7 @@ def generate_gcd_question():
     return question, answer
 
 
-def game_gcd(user_name):
+def game_gcd():
     rules = 'Find the greatest common divisor of given numbers.'
-    run_game(user_name, rules, generate_gcd_question)
+    run_game(rules, generate_gcd_question)
 
