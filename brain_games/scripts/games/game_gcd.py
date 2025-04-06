@@ -6,7 +6,7 @@ from brain_games.scripts.game_engine import run_game
 def generate_gcd_question():
 
     number_one, number_two = random.randint(1, 25), random.randint(30, 150)
-    question = f'{number_one} and {number_two}'
+    question = f'{number_one} {number_two}'
     # Алгоритм Евклида
     while number_one != 0 and number_two != 0:
         if number_one > number_two:
